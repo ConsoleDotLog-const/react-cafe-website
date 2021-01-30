@@ -4,7 +4,7 @@ import { FiCoffee } from 'react-icons/fi'
 
 
 export const Nav = styled.nav`
-    background:Red;
+    background:transparent;
     height:80px;
     display:flex;
     justify-content: center;
