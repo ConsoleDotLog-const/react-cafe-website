@@ -9,15 +9,16 @@ export const HeroContainer = styled.div`
     height:95vh;
     background-position: center;
     background-size: cover;
+    
 
-    clip-path: polygon(0 0, 100% 0, 100% 86vh, 0 100%)
+    clip-path: polygon(0 0, 100vw 0, 100% 86vh, 0 100%)
 
 `
 
 export const HeroContent = styled.div`
-        height : calc(100vh - 80px)
+        height: calc(100vh - 80px);
         max-height:100%;
-        width: 100vw;
+        width: 90vw;
         padding: 0rem calc((100vw - 1300px) / 2)
 `
 export const HeroItems = styled.div`
@@ -32,7 +33,7 @@ export const HeroItems = styled.div`
         color: #fff;
         text-transform: uppercase;
         line-height: 1 ;
-        font-weight: bold
+        font-weight: bold;
 
         @media screen and (max-width: 650px){
             width:100%;
@@ -42,7 +43,7 @@ export const HeroItems = styled.div`
 export const HeroH1 = styled.h1`
         font-size: clamp(2.5rem, 10vw,5rem);
         margin-bottom: 1rem;
-        box-shadow: 3px 5px #e9ba23;
+        box-shadow: 3px 5px #DAA520;
         letter-spacing 3px;
 `
 
