@@ -1,11 +1,11 @@
 import React from 'react';
-import { SideBarContainer, Icon, SideBarMenu, SideBarLink, SideBtnWrap } from './SideBarElements'
+import { SideBarContainer, Icon, SideBarMenu, SideBarLink, SideBtnWrap,ClosedIcon,SideBarRoute } from './SideBarElements'
 
-const SideBar = () => {
+const SideBar = ({isOpen, toggle}) => {
     return (
-       <SideBarContainer>
+       <SideBarContainer isOpen={isOpen} onClick={toggle}>
            <Icon>
-               <CloseIcon/>
+               <ClosedIcon/>
            </Icon>
            <SideBarMenu>
                <SideBarLink to="/">Coffee</SideBarLink>
@@ -19,4 +19,4 @@ const SideBar = () => {
     )
 }
 
-export default SideBar
+export default SideBar;

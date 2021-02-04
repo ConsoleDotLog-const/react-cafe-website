@@ -65,6 +65,6 @@ export const HeroBtn = styled.button`
         background: #ffc500;
         transition: 0.2s ease out;
         cursor: pointer;
-        color: #000
+        color: #000;
     }
 `
